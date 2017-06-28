@@ -53,7 +53,7 @@ sub DoQuery {
 		$sth->execute($patronid) || die $dbh->errstr;
 		while( my (@patron_info) = $sth->fetchrow_array() ) 
 		{
-		my $to = 'zengh@wpunj.edu';
+		my $to = $patron_info[3];
 		my $from = 'do-not-reply@library.wpunj.edu'; 
 		open(MAIL, "|/usr/sbin/sendmail -t");
 		# Email Header
