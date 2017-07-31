@@ -17,7 +17,7 @@ $ENV{ORACLE_HOME} = "/oracle/app/oracle/product/11.2.0.3/db_1";
 # $ENV{ORACLE_HOME} = "/oracle/app/oracle/product/10.2.0/db_1";
 
 #  Your database name
-my $db_name = "wmpatrsndb";
+my $db_name = "xxxdb";
 
 #  Report directory where you will store the output
 #  file prior to transfering it to WebVoyage.
